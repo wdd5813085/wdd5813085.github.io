@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+  input{
+	  width:150px;
+	  height:18px;
+	  outline-style:none;  /*取消蓝色边框*/
+	  
+	  }
+.username{
+	border:1px dashed #ccc;
+	background-color:#E7EEFE;
+	
+	color:blue;
+	}
+.username:focus{   /*获得焦点的状态*/
+	border:1px dashed pink;
+	background-color:#FFF7FB;
+	color:pink;
+	
+	}
+.email{
+	border:0 none;
+	border-bottom:1px dashed red;
+	}
+.search{
+	border:1px solid #ccc;
+	color:#ccc;
+	background:url(search.png) no-repeat right center;
+	}
+</style>
+</head>
+
+<body>
+用户名: <input type="text" class="username" /><br />
+<br />
+邮　箱: <input type="text"  class="email"/><br />
+<br />
+<label for="txt">搜索一下</label>: <input type="text" id="txt"  class="search" value="请输入..." />
+
+</body>
+</html>

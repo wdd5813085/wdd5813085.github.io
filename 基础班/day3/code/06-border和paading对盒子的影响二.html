@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.father {
+			width: 500px;
+			height:400px;
+			background-color: red;
+		}
+		.son {
+			/*如果不给div设置宽度，默认会等于父盒子的宽度*/
+			height: 200px;
+			background-color: blue;
+			padding-left: 500px;
+			border-left: solid 100px #ccc;
+		}
+		/*如果存在父子关系的盒子时*/
+		/*当子盒子没有设置宽度的时候，首先默认等于父盒子的宽度*/
+		/*如果，子盒子的水平padding+水平border，没有超过父盒子的宽度是，那么，子盒子的宽度不变*/
+		/*如果，子盒子的水平padding+水平border，超过了父盒子的宽度时，那么。子盒子的宽度会被撑开*/
+	</style>
+</head>
+<body>
+	<div class="father">
+		<div class="son"></div>
+	</div>
+</body>
+</html>

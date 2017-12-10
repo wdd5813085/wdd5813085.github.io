@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form>
+		昵称： <input type="text" placeholder="请输入您的昵称" value="黑马前端十一期">
+		<!-- type代表的是input标签的类型
+			 placeholder代表占位符
+			 value：默认值 -->
+		<br>
+		密码： <input type="password" placeholder="请输入您的六位密码" value="123456">
+		<!-- password 密码输入框 -->
+		<br>
+		性别： <input type="radio" name="sex">男 <input type="radio" name="sex" checked="checked">女 <input type="radio" name="sex">不详
+		<!-- radio代表的是单选框
+			 name:设置一个组，实现单选互斥
+			 checked默认被选中 -->
+		<br>
+		喜欢的运动： <input type="checkbox" name="sport" checked="checked">农药 <input type="checkbox" name="sport">敲代码 <input type="checkbox" name="sport">羽毛球 
+		<br>
+		喜欢的食物：<input type="checkbox" name="food">单身狗粮 <input type="checkbox" name="food">卫龙辣条 <input type="checkbox" name="food">沙县蒸饺
+		<!-- name的作用是告诉服务器，当前提交的数据，是哪种类型 -->
+		<br>
+		<input type="button" value="注册">
+		<!-- 普通按钮 -->
+		<br>
+		<input type="reset" name="">
+		<!-- 重置按钮 -->
+		<br>
+		<input type="submit" name="">
+		<!-- 提交按钮 -->
+		<br>
+		<input type="image" src="btn.png">
+		<!-- 图片按钮 -->
+		<br>
+		<input type="hidden" name="">
+		<!-- 隐藏域 -->
+		<br>
+		<button>注册按钮</button>
+		<!-- h5c3版本的按钮 -->
+		<br>
+		出生年月： <select>
+						<option value="">1</option>
+						<option selected="selected">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+						<option value="">6</option>
+						<option value="">7</option>
+						<option value="">8</option>
+					
+				   </select>
+				   <!-- 下拉框 -->
+				   <br>
+		征友宣言： <textarea placeholder="nishi">
+					
+				</textarea>
+				<!-- 文本域 -->
+	</form>
+</body>
+</html>

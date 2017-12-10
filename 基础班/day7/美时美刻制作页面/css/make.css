@@ -1,0 +1,301 @@
+/*面包屑*/
+.bread {
+	height: 62px;
+}
+.bread ul li {
+	float: left;
+	font-size: 18px;
+	height: 62px;
+	line-height: 62px;
+	margin-right: 8px;
+}
+
+/*info模块*/
+.info {
+	height: 440px;
+	background-color: #fff;
+}
+.info-left {
+	float: left;
+}
+.info-left img {
+	width: 328px;
+	height: 440px;
+}
+
+.info-right {
+	height: 418px;
+	width: 653px;
+	border: 1px solid #ffd283;
+	float: left;
+	margin-top: 10px;
+	margin-left: 12px;
+}
+
+.info-right .name {
+	height: 147px;
+	border-bottom: 1px solid #ffd283;
+}
+
+.info-right .name h3 {
+	float: left;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 500;
+	margin-top: 28px;
+	margin-left: 21px;
+}
+
+.info-right .name .code {
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.info-right .name .tools {
+	width: 276px;
+	height: 50px;
+	background-color: #ccc;
+	float: right;
+	margin-right: 28px;
+	margin-top: 13px;
+}
+
+.info-right .description .desc-top {
+	border-bottom: 1px solid #ffd283;
+	overflow: hidden;
+}
+.info-right .description .technology {
+	height: 85px;
+	width: 113px;
+	border-right: 1px solid #ffd283;
+	float: left;
+}
+.info-right .description .technology .tec {
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	line-height: 48px;
+}
+
+.info-right .description .technology .way {
+	font-size: 21px;
+	color: #c90000;
+	display: block;
+	text-align: center;
+	line-height: 27px;
+}
+.info-right .description .difficulty {
+	height: 85px;
+	width: 269px;
+	border-right: 1px solid #ffd283;
+	float: left;
+	position: relative;
+}
+.info-right .description .num {
+	 border-right: 0 none;
+}
+.info-right .description .difficulty .diff {
+	font-size: 16px;
+	line-height: 48px;
+	margin-left: 33px;
+	display: block;
+}
+.info-right .description .difficulty .icon {
+	position: absolute;
+	left: 33px;
+	bottom: 14px;
+}
+.info-right .description .difficulty .progress {
+	position: absolute;
+	left: 78px;
+	bottom: 11px;
+}
+
+.info-right .description .difficulty .progress li {
+	float: left;
+	height: 30px;
+	width: 5px;
+	background-color: #ccc;
+	margin-right: 3px;
+}
+
+.info-right .description .difficulty .progress li.red {
+	background-color: red;
+}
+.info-right .description .difficulty .level {
+	font-size: 16px;
+	position: absolute;
+	right: 15px;
+	bottom: 18px;
+}
+/*美食介绍*/
+.cook-introduced {
+	height: 115px;
+	background-color: #fff;
+	margin-top: 36px;
+	overflow: hidden;
+}
+.cook-introduced .title {
+	width: 205px;
+	height: 51px;
+	background-image: url("../img/border-bg.png");
+	margin-top: 21px;
+	margin-left: 407px;
+	position: relative;
+	
+}
+
+.cook-introduced .title .first {
+	font-size: 24px;
+	color: #f49d3f;
+	line-height: 51px;
+	margin-left: 20px;
+}
+
+.cook-introduced .title .first .last {
+	font-size: 30px;
+	color: #000;
+}
+.cook-introduced .title .intro {
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+}
+.cook-introduced .description {
+	text-align: center;
+	margin-top: 26px;
+	font-size: 14px;
+}
+/*主要介绍*/
+.material {
+	
+	background-color: #fff;
+	overflow: hidden;
+	padding-top: 55px;
+}
+.material .title {
+	width: 205px;
+	height: 51px;
+	background-image: url("../img/border-bg.png");
+
+	margin-left: 407px;
+	position: relative;
+	
+}
+
+.material .title .first {
+	font-size: 24px;
+	color: #f49d3f;
+	line-height: 51px;
+	margin-left: 20px;
+}
+
+.material .title .first .last {
+	font-size: 30px;
+	color: #000;
+}
+.material .title .intro {
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+}
+.material .list {
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.material .list li {
+	float: left;
+	width: 490px;
+	height: 30px;
+	background-color: #eaeaea;
+	margin-bottom: 2px;
+	text-align: center;
+	line-height: 30px;
+
+}
+.material .list li:nth-child(odd) {
+	margin-right: 2px;
+	/*伪类选择器的一种，如果记不得，那就用最笨的方法来做就可以了*/
+}
+.material .list li.deep {
+	background-color: #ccc;
+}
+
+/*制作步骤*/
+.steps {
+	
+	background-color: #fff;
+	overflow: hidden;
+	padding-top: 55px;
+}
+.steps .title {
+	width: 205px;
+	height: 51px;
+	background-image: url("../img/border-bg.png");
+
+	margin-left: 407px;
+	position: relative;
+	
+}
+
+.steps .title .first {
+	font-size: 24px;
+	color: #f49d3f;
+	line-height: 51px;
+	margin-left: 20px;
+}
+
+.steps .title .first .last {
+	font-size: 30px;
+	color: #000;
+}
+.steps .title .intro {
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+}
+.steps .step-list {
+	margin-left: 10px;
+	margin-top: 34px;
+}
+.steps .step-list li {
+	float: left;
+	width: 980px;
+	height: 420px;
+	margin-bottom: 45px;
+}
+.steps .step-list li .left {
+	float: left;
+}
+.steps .step-list li .left img {
+	width: 490px;
+	height: 420px;
+}
+.steps .step-list li .right {
+	width: 490px;
+	height: 420px;
+	float: left;
+	background: url("../img/step-bg.png") no-repeat 47px 72px;
+	position: relative;
+}
+
+.steps .step-list li .right .num {
+	font-family: "Arial";
+	font-style: italic;
+	font-size: 60px;
+	line-height: 60px;
+	color: #f6b16c;
+	position: absolute;
+	top: 51px;
+	left: 51px;
+}
+
+.steps .step-list li .right .step-content {
+	font-size: 20px;
+	position: absolute;
+	top: 164px;
+	left: 120px;
+	line-height: 36px;
+	width: 323px;
+}

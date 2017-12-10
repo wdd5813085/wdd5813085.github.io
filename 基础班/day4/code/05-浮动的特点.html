@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div {
+			width: 100px;
+			height: 100px;
+
+		}
+		.one {
+			background-color: red;
+			/*float: left;*/
+		}
+		.two {
+			background-color: blue;
+			float: left;
+			height: 150px;
+		}
+		.three {
+			background-color: green;
+			float: left;
+			height: 200px;
+		}
+		/*1.浮动元素会脱离标准流，不占据标准流的位置*/
+		/*2.浮动元素可以实现模式转换（行内块）*/
+		/*3.浮动元素顺次排列*/
+		/*4.浮动元素顶端对齐*/
+		/*5.子盒子只会在父盒子的区域中浮动*/
+		/*6.父盒子浮动，会带跑子盒子*/
+		/*7.浮动元素前面如果有标准流，那么只会在标准流后面浮动*/
+	
+	
+		/*.father {
+			width: 500px;
+			height: 500px;
+			background-color: red;
+			float: right;
+		}
+		.son {
+			width: 100px;
+			height: 100px;
+			background-color: blue;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="one"></div>
+	<div class="two"></div>
+	<div class="three"></div>
+	<div class="father">
+		<div class="son"></div>
+	</div>
+</body>
+</html>

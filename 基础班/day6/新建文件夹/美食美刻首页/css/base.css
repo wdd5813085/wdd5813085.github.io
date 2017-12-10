@@ -1,0 +1,47 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+a,
+input,
+li,
+ul,
+ol,
+img,
+select,
+span,
+div {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	vertical-align: middle;
+	display: block;
+}
+
+input {
+	border: 0 none;
+	outline: none;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+body {
+	font: 12px/100% "微软雅黑";
+	background-color: #fae8c8;
+}
+
+.w {
+	width: 1000px;
+	margin: 0 auto;
+}

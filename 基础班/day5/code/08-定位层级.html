@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		/*div {
+			width: 100px;
+			height: 100px;	
+			position: fixed;
+
+		}
+		.red {
+			background-color: red;
+			z-index: 1;
+		}
+		.pink {
+			background-color: pink;
+			z-index: 1;
+		}
+		.yellow {
+			background-color: yellow;
+			z-index: 2;
+		}
+		.green {
+			width: 50px;
+			height: 50px;
+			background-color: green;
+			z-index: 1;
+
+		}*/
+		/*在定位元素中，默认情况下，排在后面的元素，层级比较高*/
+		div {
+			width: 100px;
+			height: 100px;
+		}
+		.red {
+			background-color: red;
+			position: fixed;
+		}
+		.yellow {
+			background-color: yellow;
+			float: left;
+			height: 300px;
+			z-index: 3;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- <div class="red"></div>
+	<div class="pink"></div>
+	<div class="yellow">
+		<div class="green"></div>
+	</div> -->
+	<div class="red"></div>
+	<div class="yellow"></div>
+
+</body>
+</html>

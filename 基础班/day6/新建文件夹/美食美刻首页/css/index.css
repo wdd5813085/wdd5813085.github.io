@@ -1,0 +1,144 @@
+/*nav*/
+.nav {
+	height: 77px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.nav ul {
+	margin-top: 22px;
+}
+.nav ul li {
+	float: left;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 32px;
+	height: 32px;
+	margin-right: 22px;
+}
+
+.nav ul li:first-child {
+	border-bottom: 1px solid red;
+}
+
+/*today*/
+.today {
+	width: 1360px;
+	height: 357px;
+	background-color: #fae8c8;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.today .top {
+	text-align: center;
+}
+.today .top h3 {
+	font-size: 24px;
+	line-height: 81px;
+	font-weight: 500;
+}
+
+.today .bottom li {
+	width: 25%;
+	float: left;
+	position: relative;
+}
+.today .bottom li .description {
+	width: 340px;
+	height: 60px;
+	background-color: rgba(255,255,255,.3);
+	position: absolute;
+	bottom: 0;
+}
+
+.today .bottom .description .name {
+	font-size: 18px;
+	line-height: 34px;
+	display: block;
+	margin-left: 11px;
+}
+.today .bottom .description .dec {
+	line-height: 20px;
+	margin-left: 13px;
+}
+.today .bottom .description .tag {
+	width: 106px;
+	height: 42px;
+	position: absolute;
+	top: -17px;
+	right: 17px;
+	background-color: pink;
+	font-size: 15px;
+	line-height: 42px;
+	text-align: center;
+	color: #fff;
+}
+
+.today .yexiao {
+	position: absolute;
+	top: 154px;
+	left: 92px;
+}
+.cook .title {
+	height: 78px;
+	/*background-color: #ccc;*/
+	overflow: hidden;
+}
+.cook .title h3 {
+	float: left;
+	margin-left: 430px;
+	font-size: 30px;
+	margin-top: 26px;
+	margin-right: 45px;
+	font-weight: 500;
+
+}
+
+.cook .title ul {
+	margin-top: 32px;
+}
+.cook .title ul li {
+	float: left;
+	font-size: 24px;
+}
+
+.cook .title ul li:nth-child(n+2) {
+	margin-right: 9px;
+}
+
+.cook .cook-list li {
+	width: 33.33%;
+	float: left;
+	margin-bottom: 35px;
+}
+
+.cook .cook-list li .description {
+	height: 145px;
+	background-color: #fff;
+	position: relative;
+}
+
+.cook .cook-list li .description .name {
+	font-size: 30px;
+	line-height: 66px;
+	display: block;
+	margin-left: 24px;
+}
+
+.cook .cook-list li .description .comment,
+.cook .cook-list li .description .hot {
+	font-size: 24px;
+	color: #808080;
+	position: absolute;
+}
+
+.cook .cook-list li .description .comment {
+	left: 24px;
+	bottom: 30px;
+}
+.cook .cook-list li .description .hot {
+	left: 104px;
+	bottom: 30px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div {
+			width: 100px;
+			height: 100px;
+
+		}
+		.red {
+			background-color: red;
+			/*margin-bottom: 100px;*/
+		}
+		.blue {
+			background-color: blue;
+			margin-top:100px;
+		}
+		/*margin不会影响盒子的大小，影响的是盒子的位置*/
+		.text {
+			width: 300px;
+			border: 1px solid #ccc;
+		}
+		span {
+			border: 1px solid red;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		/*可以单独一个个控制*/
+		/*连写的方式，跟padding一样*/
+	</style>
+</head>
+<body>
+	<div class="red"></div>
+	<div class="blue"></div>
+	<div class="text">
+		<span>黑马</span><span>黑马</span><span>黑马</span><span>黑马</span>
+	</div>
+</body>
+</html>

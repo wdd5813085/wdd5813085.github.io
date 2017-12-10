@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.father {
+			width: 500px;
+			background-color: red;
+		}
+		.mon {
+			width: 500px;
+			height: 500px;
+			background-color: pink;
+		}
+		.son {
+			width: 200px;
+			height: 100px;
+			background-color: blue;
+			border: 1px solid #ccc;
+			float: left;
+		}
+		/*当父盒子的高度没有设置时，所有的子元素都浮动起来之后，父盒子高度为零*/
+		/*如何清除浮动带来的影响*/
+	</style>
+</head>
+<body>
+	<div class="father">
+		<div class="son"></div>
+		<div class="son"></div>
+		<div class="son"></div>
+		<div class="son"></div>
+		<div class="son"></div>
+		<div class="son"></div>
+	</div>
+	<div class="mon"></div>
+</body>
+</html>

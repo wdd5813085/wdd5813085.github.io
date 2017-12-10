@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.father {
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			overflow: visible;
+			/*默认值，超出可见*/
+			overflow: hidden;
+		}
+		.son {
+			width: 50px;
+			height: 50px;
+			background-color: blue;
+			margin-left: 200px;
+		}
+		.box {
+			width: 500px;
+			height: 200px;
+			border: 1px #000 solid;
+			/*overflow: scroll;*/
+			/*不管你有没有超出，我都给你加上滚动条*/
+			overflow: auto;
+			/*如果你超出，我再给你加上滚动条
+			*/
+		}
+		body {
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="father">
+		<div class="son"></div>
+	</div>
+	<div class="box">是一个寂寞的天，我的偶像已经升天（纪念乔布斯）这是一个寂寞的天，我的偶像已经升天（纪念乔布斯）这是一个寂寞的天，我的偶像已经升天（纪念乔布斯）这是一个寂寞的天，我的偶像已经升天（纪念乔布斯）这是一个寂寞的天，我的偶像已经升天（纪念乔布斯）这是一个寂寞的天，我的偶像已经升天（纪念乔布斯）这是一个寂寞的天，我的偶像已经升天（纪念乔布斯）这是一个寂寞的天，我的偶像已经升天（纪念乔布斯）</div>
+</body>
+</html>

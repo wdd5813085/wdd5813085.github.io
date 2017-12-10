@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.father {
+			width: 500px;
+			/*height: 500px;*/
+			/*overflow: hidden;*/
+			/*float: left;*/
+			background-color: red;
+		}
+		
+		.son {
+			width: 200px;
+			height: 100px;
+			background-color: blue;
+			border: 1px solid #ccc;
+			float: left;
+		}
+		.clear {
+			clear: both;
+		}
+		/*当父盒子的高度没有设置时，所有的子元素都浮动起来之后，父盒子高度为零*/
+		/*如何清除浮动带来的影响*/
+		/*1.给复合设置一个高度*/
+		/*2.给父盒子设置overflow：hidden；*/
+		/*3.父盒子也浮动*/
+		/*4.利用clear属性的特点*/
+		/*5、利用伪元素配合clear的特点来实现*/
+		.clearfix:after {
+			content: "";
+			clear: both;
+			display: block;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="father clearfix">
+		<div class="son"></div>
+		<div class="son"></div>
+		<div class="son"></div>
+		<div class="son"></div>
+		<div class="son"></div>
+		<div class="son"></div>
+		<!-- <div class="clear"></div> -->
+	</div>
+</body>
+</html>

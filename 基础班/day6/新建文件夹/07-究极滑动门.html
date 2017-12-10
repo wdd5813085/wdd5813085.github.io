@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.left {
+			height: 33px;
+			background: url("案例/weixin.png") left -192px;
+			float: left;
+			padding-left: 15px;
+			list-style: none;
+
+		}
+		
+		.right {
+			height: 33px;
+			background: url("案例/weixin.png") right -192px;
+			float: left;
+			padding-right: 15px;
+			color: red;
+			line-height: 33px;
+			text-decoration: none;
+		}
+		.left:hover {
+			background-position: left -144px;
+		}
+		.left:hover .right {
+			background-position: right -144px;
+		}
+	</style>
+</head>
+<body>
+	<div class="list">
+		<ul>
+			<li class="left">
+				<a href="#" class="right">黑马程序员</a>
+			</li>
+			<li class="left">
+				<a href="#" class="right">黑马程序员</a>
+			</li>
+			<li class="left">
+				<a href="#" class="right">黑马程序员</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
